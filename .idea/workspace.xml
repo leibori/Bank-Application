@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd58b868-cd3e-4852-a1d1-c15a1570fe68" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="fd58b868-cd3e-4852-a1d1-c15a1570fe68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Database/IuserData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$5$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/AddCard$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/AddCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Login$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Login$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Login$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/IuserData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gui/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/Accounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gui/AddCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gui/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/Environment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gui/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gui/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +41,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -26,6 +53,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1oTMhYcXBryXmrLbFHY63znr8Rp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,6 +61,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -43,18 +72,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hadar\IdeaProjects\BankApplication-DesignPatternsAssignment\src" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Login (1)">
     <configuration name="Login (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -103,7 +120,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -117,14 +134,20 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Gui/Accounts.java</url>
-          <line>322</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Gui/NewAccount.java</url>
           <line>55</line>
@@ -132,17 +155,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Gui/Accounts.java</url>
-          <line>65</line>
+          <line>63</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Gui/User.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Gui/Login.java</url>
-          <line>78</line>
+          <line>66</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>

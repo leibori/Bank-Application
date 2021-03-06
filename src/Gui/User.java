@@ -7,16 +7,12 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 import Accounts.Account;
-import Cards.Card;
-import Loans.Loan;
-
 public class User implements Serializable {
 	
 	private String username;
 	private ArrayList<Account> accounts = new ArrayList<>();
 
-	public User() {
-	}
+	public User() { }
 	
 	public final String getUsername() {
 		return username;
@@ -43,10 +39,5 @@ public class User implements Serializable {
 		} catch (IOException ioException) {
 			ioException.printStackTrace();
 		}
-		// User user = Environment.isNameExist(username);
 	}
-
-	// func open user info
-	// func save user info
-
 }

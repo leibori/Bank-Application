@@ -14,9 +14,9 @@ public class Environment {
 		// TODO Auto-generated constructor stub
 	}
 
-	public static final ArrayList<User> getUsers() {
-		return users;
-	}
+//	public static final ArrayList<User> getUsers() {
+//		return users;
+//	}
 
 	public static User readObj(String path){
 //		try (FileInputStream fis = new FileInputStream(path);

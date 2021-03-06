@@ -4,23 +4,11 @@ package Gui;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutputStream;
-import java.util.ArrayList;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
 
-
-
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import Accounts.Account;
-import Accounts.CreateAccount;
 
 public class Login {
 
@@ -79,26 +67,8 @@ public class Login {
 					user = new User();
 					user.setUsername(textField.getText());
 					Environment.addUser(user);
-
-					// write to file
-					/*try {
-						String path = "C:\\Users\\hadar\\IdeaProjects\\BankApplication-DesignPatternsAssignment\\src\\Database\\"+name+".txt";
-						ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(path));
-						out.writeObject(user);
-					} catch (IOException ioException) {
-						ioException.printStackTrace();
-					}*/
-
 				}
-//				else {
-//					String path = "C:\\Users\\hadar\\IdeaProjects\\BankApplication-DesignPatternsAssignment\\src\\Database\\"+name+".txt";
-//					User user = Environment.readObj(path);
-////					Account newAccount = CreateAccount.createAccount(user.getUsername(), (String) list.getSelectedValue());
-////					newAccount.setBalance(1000.0);
-////					// System.out.println("hadar");
-////					user.addAccount(newAccount);
-//
-//				}
+
 				Accounts window = new Accounts(user);
 
 				textField.setText("");

@@ -17,9 +17,7 @@ import net.miginfocom.swing.MigLayout;
 import Accounts.Account;
 import Cards.Card;
 import Cards.CardFactory;
-import Accounts.BasicAccount;
 
-// add exit butt to save to file
 
 public class Accounts {
 
@@ -72,9 +70,6 @@ public class Accounts {
         frame.getContentPane().add(btnAddAccount, "cell 0 3 ,alignx left,aligny top");
         btnAddAccount.setBackground(new Color(121, 190, 226));
 
-        JButton btnSaveAccount = new JButton("Save");
-        btnAddAccount.addActionListener(btnSaveAccountListener);
-        frame.getContentPane().add(btnSaveAccount, "cell 1 3 ,alignx left,aligny top");
 
         JLabel lblAccountInfo = new JLabel("Account Info");
         frame.getContentPane().add(lblAccountInfo, "cell 1 0");
@@ -170,6 +165,7 @@ public class Accounts {
                         a.deposit(amount);
                         refreshListModel();
                         JOptionPane.showMessageDialog(frame, "The loan has been approved, and the money deposited");
+
                     } catch (Exception e1) {
                         JOptionPane.showMessageDialog(frame, e1.getMessage());
                     }
@@ -293,8 +289,6 @@ public class Accounts {
             });
 
 
-//            frame.setVisible(false);
-//            frame.dispose();
         }}
     };
     private ActionListener btnAddAccountListener = new ActionListener() {
@@ -320,20 +314,6 @@ public class Accounts {
         }
     };
 
-//    private Account getSelectedAccount() {
-//        if(!user.getAccounts().isEmpty()) {
-//            for(Account account : user.getAccounts()) {
-////                System.out.println(account.getAccountNumber() + "..."
-////                + Integer.parseInt( (String) list.getSelectedValue() ));
-//                if(account.getAccountNumber() == Integer.parseInt( (String) list.getSelectedValue() )) {
-//                    System.out.println("succ");
-//                    return account;
-//                }
-//            }
-//        }
-//
-//        return null;
-//    };
 
     private Account getSelectedAccount() {
         if(list.isSelectionEmpty() == false) {
