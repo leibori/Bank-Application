@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd58b868-cd3e-4852-a1d1-c15a1570fe68" name="Default Changelist" comment="final">
-      <change afterPath="$PROJECT_DIR$/src/Gui/dvir.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gui/dvirb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gui/pink-sky-cover.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$1.class" afterDir="false" />
@@ -16,11 +13,7 @@
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$7.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Login$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/Login$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Login$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Login.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gui/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/Accounts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gui/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +138,19 @@
       <option name="presentableId" value="LOCAL‎00002" />
       <updated>1615056699579</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎00003" summary="final">
+      <created>1615122313130</created>
+      <option name="number" value="LOCAL‎00003" />
+      <option name="presentableId" value="LOCAL‎00003" />
+      <updated>1615122313130</updated>
+    </task>
+    <task id="LOCAL‎00004" summary="final">
+      <created>1615130039336</created>
+      <option name="number" value="LOCAL‎00004" />
+      <option name="presentableId" value="LOCAL‎00004" />
+      <updated>1615130039336</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
