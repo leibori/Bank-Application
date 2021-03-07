@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd58b868-cd3e-4852-a1d1-c15a1570fe68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="fd58b868-cd3e-4852-a1d1-c15a1570fe68" name="Default Changelist" comment="final">
+      <change afterPath="$PROJECT_DIR$/src/Gui/dvir.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gui/dvirb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gui/pink-sky-cover.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Database/IuserData.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$2.class" afterDir="false" />
@@ -15,17 +16,11 @@
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$7.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/AddCard$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/AddCard.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Login$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Login$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Login$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/IuserData.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gui/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/Accounts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gui/AddCard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gui/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/Environment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gui/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gui/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,14 +57,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Gui" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Gui" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hadar\IdeaProjects\Bank-Application\src\Gui" />
       <recent name="C:\Users\hadar\IdeaProjects\BankApplication-DesignPatternsAssignment\src\Gui" />
       <recent name="C:\Users\hadar\IdeaProjects\BankApplication-DesignPatternsAssignment" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hadar\IdeaProjects\Bank-Application\src\Gui" />
+      <recent name="C:\Users\hadar\IdeaProjects\Bank-Application" />
       <recent name="C:\Users\hadar\IdeaProjects\BankApplication-DesignPatternsAssignment\src" />
     </key>
   </component>
@@ -132,6 +133,19 @@
       <option name="presentableId" value="Default" />
       <updated>1613306252585</updated>
     </task>
+    <task id="LOCAL‎00001" summary="final">
+      <created>1615056506641</created>
+      <option name="number" value="LOCAL‎00001" />
+      <option name="presentableId" value="LOCAL‎00001" />
+      <updated>1615056506641</updated>
+    </task>
+    <task id="LOCAL‎00002" summary="final">
+      <created>1615056699579</created>
+      <option name="number" value="LOCAL‎00002" />
+      <option name="presentableId" value="LOCAL‎00002" />
+      <updated>1615056699579</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +159,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -155,12 +173,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Gui/Accounts.java</url>
-          <line>63</line>
+          <line>70</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Gui/Login.java</url>
-          <line>66</line>
+          <line>79</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>

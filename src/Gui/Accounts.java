@@ -54,16 +54,23 @@ public class Accounts {
         refreshListModel();
 
         frame = new JFrame();
-        frame.setBounds(100, 100, 450, 300);
+        frame.setBounds(100, 100, 1000, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.getContentPane().setBackground(new Color(155, 210, 236));
 
         frame.setTitle(this.user.getUsername() + "'s Home");
         frame.getContentPane().setLayout(new MigLayout("", "[61px,grow][93px,grow][99px]", "[23px][grow]"));
 
+        ImageIcon icon1 = new ImageIcon(this.getClass().getResource("dvirb.png"));
+        JLabel back = new JLabel("",icon1, JLabel.RIGHT);
+        back.setBounds(250,250,250,250);
+        frame.getContentPane().add(back, "cell 6 6");
+        back.setOpaque(false);
+        //frame.add(back);
+
         Label label = new Label("Accounts: " );
         //frame.setLocation(0,0);
-        frame.getContentPane().add(label, "cell 0 0" );//,alignx left,aligny bottom");
+        frame.getContentPane().add(label, "cell 0 0" );
 
         JButton btnAddAccount = new JButton("Add Account");
         btnAddAccount.addActionListener(btnAddAccountListener);

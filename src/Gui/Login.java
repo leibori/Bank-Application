@@ -5,9 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JTextField;
+import javax.swing.*;
 
 
 public class Login {
@@ -46,19 +44,34 @@ public class Login {
 		frmLogin.setTitle("Login");
 		frmLogin.setBounds(100, 100, 450, 300);
 		frmLogin.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
 		frmLogin.getContentPane().setLayout(null);
-		frmLogin.getContentPane().setBackground(new Color(155, 210, 236));
+		// frmLogin.getContentPane().setBackground(new Color(0, 0, 0, .5f));
 
 		textField = new JTextField();
 		textField.setBounds(170, 103, 86, 20);
 		frmLogin.getContentPane().add(textField);
 		textField.setColumns(10);
 		
-		Label label = new Label("Username");
+		JLabel label = new JLabel("Username");
 		label.setBounds(102, 101, 62, 22);
 		frmLogin.getContentPane().add(label);
-		
+		label.setOpaque(false);
+
+		JLabel headline = new JLabel("Welcome to the first Java Bank");
+		headline.setBounds(40, 2, 400, 100);
+		frmLogin.getContentPane().add(headline );
+		headline.setFont(new Font("Courier", Font.BOLD,24));
+		headline.setOpaque(false);
+
+
+		ImageIcon icon = new ImageIcon(this.getClass().getResource("pink-sky-cover.jpg"));
+		JLabel back = new JLabel("",icon, JLabel.CENTER);
+		back.setBounds(0,0,500,500);
+		frmLogin.add(back);
+
 		JButton btnNewButton = new JButton("Log In");
+
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String name = textField.getText();
@@ -73,9 +86,12 @@ public class Login {
 
 				textField.setText("");
 			}
+
 		});
+
 		btnNewButton.setBounds(266, 102, 89, 23);
-		btnNewButton.setBackground(new Color(121, 190, 226));
+		btnNewButton.setBackground(new Color(220, 157, 175));
 		frmLogin.getContentPane().add(btnNewButton);
+		btnNewButton.setVisible(true);
 	}
 }
