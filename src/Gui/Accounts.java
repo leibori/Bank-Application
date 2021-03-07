@@ -56,7 +56,7 @@ public class Accounts {
         frame = new JFrame();
         frame.setBounds(100, 100, 1000, 800);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        frame.getContentPane().setBackground(new Color(155, 210, 236));
+        frame.getContentPane().setBackground(new Color(222, 222, 222));
 
         frame.setTitle(this.user.getUsername() + "'s Home");
         frame.getContentPane().setLayout(new MigLayout("", "[61px,grow][93px,grow][99px]", "[23px][grow]"));
@@ -71,48 +71,61 @@ public class Accounts {
         Label label = new Label("Accounts: " );
         //frame.setLocation(0,0);
         frame.getContentPane().add(label, "cell 0 0" );
+        label.setFont(new Font("Courier", Font.BOLD,20));
 
         JButton btnAddAccount = new JButton("Add Account");
+        btnAddAccount.setFont(new Font("Courier", Font.BOLD,16));
         btnAddAccount.addActionListener(btnAddAccountListener);
         frame.getContentPane().add(btnAddAccount, "cell 0 3 ,alignx left,aligny top");
-        btnAddAccount.setBackground(new Color(121, 190, 226));
+        btnAddAccount.setBackground(new Color(252, 164, 122));
+        btnAddAccount.setPreferredSize(new Dimension(50, 50));
 
 
         JLabel lblAccountInfo = new JLabel("Account Info");
         frame.getContentPane().add(lblAccountInfo, "cell 1 0");
+        lblAccountInfo.setFont(new Font("Courier", Font.BOLD,20));
 
         JLabel lblAccountActions = new JLabel("Account Actions:");
         frame.getContentPane().add(lblAccountActions, "cell 0 4");
         //JTextPane txtAccountInfo;
+        lblAccountActions.setFont(new Font("Courier", Font.BOLD,20));
 
         list = new JList(listModel);
         list.addListSelectionListener(listSelectionListener);
-        list.setSize(40,200);
+        list.setSize(300,600);
         frame.getContentPane().add(list, "cell 0 0,grow");
 
         txtAccountInfo.setSize(50,20);
         frame.getContentPane().add(txtAccountInfo, "cell 1 0,grow");
 
         JButton btnAddCard = new JButton("Add Card");
+        btnAddCard.setFont(new Font("Courier", Font.BOLD,16));
         btnAddCard.addActionListener(btnAddCardListener);
         frame.getContentPane().add(btnAddCard, "flowy,cell 0 6");
         //btnAddCard.setLocation(100,100);
-        btnAddCard.setBackground(new Color(121, 190, 226));
+        btnAddCard.setBackground(new Color(252, 164, 122));
+        btnAddCard.setPreferredSize(new Dimension(50, 50));
 
         JButton btnWithdraw = new JButton("Withdraw");
+        btnWithdraw.setFont(new Font("Courier", Font.BOLD,16));
         btnWithdraw.addActionListener(btnWithdrawListener);
         frame.getContentPane().add(btnWithdraw, "cell 1 5");
-        btnWithdraw.setBackground(new Color(121, 190, 226));
+        btnWithdraw.setBackground(new Color(252, 164, 122));
+        btnWithdraw.setPreferredSize(new Dimension(50, 50));
 
         JButton btnDeposit = new JButton("Deposit");
+        btnDeposit.setFont(new Font("Courier", Font.BOLD,16));
         btnDeposit.addActionListener(btnDepositListener);
         frame.getContentPane().add(btnDeposit, "cell 0 5");
-        btnDeposit.setBackground(new Color(121, 190, 226));
+        btnDeposit.setBackground(new Color(252, 164, 122));
+        btnDeposit.setPreferredSize(new Dimension(50, 50));
 
         JButton btnRequestLoan = new JButton("Request Loan");
+        btnRequestLoan.setFont(new Font("Courier", Font.BOLD,16));
         btnRequestLoan.addActionListener(btnRequestLoanListener);
         frame.getContentPane().add(btnRequestLoan, "cell 1 6");
-        btnRequestLoan.setBackground(new Color(121, 190, 226));
+        btnRequestLoan.setBackground(new Color(252, 164, 122));
+        btnRequestLoan.setPreferredSize(new Dimension(50, 50));
 
         frame.setVisible(true);
 
