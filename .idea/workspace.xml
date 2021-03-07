@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="fd58b868-cd3e-4852-a1d1-c15a1570fe68" name="Default Changelist" comment="final">
       <change afterPath="$PROJECT_DIR$/src/Gui/dvir.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Gui/dvirb.png" afterDir="false" />
@@ -20,8 +21,19 @@
       <change beforePath="$PROJECT_DIR$/bin/Gui/Login$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Login$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Login.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gui/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/Accounts.java" afterDir="false" />
+=======
+    <list default="true" id="fd58b868-cd3e-4852-a1d1-c15a1570fe68" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Environment.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Environment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Login$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Login$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Login$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/User.class" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/src/Gui/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/Login.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,23 +68,47 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+<<<<<<< Updated upstream
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Gui" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Gui" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\orile\OneDrive\שולחן העבודה\limudim\שנה די סמסטר א\פרדיגמות\BankApp\src\Gui" />
+      <recent name="C:\Users\hadar\IdeaProjects\BankApplication-DesignPatternsAssignment\src" />
+>>>>>>> Stashed changes
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hadar\IdeaProjects\Bank-Application\src\Gui" />
       <recent name="C:\Users\hadar\IdeaProjects\BankApplication-DesignPatternsAssignment\src\Gui" />
       <recent name="C:\Users\hadar\IdeaProjects\BankApplication-DesignPatternsAssignment" />
     </key>
+<<<<<<< Updated upstream
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hadar\IdeaProjects\Bank-Application\src\Gui" />
       <recent name="C:\Users\hadar\IdeaProjects\Bank-Application" />
       <recent name="C:\Users\hadar\IdeaProjects\BankApplication-DesignPatternsAssignment\src" />
     </key>
+=======
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+>>>>>>> Stashed changes
   </component>
   <component name="RunManager" selected="Application.Login (1)">
     <configuration name="Login (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -121,7 +157,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -153,7 +189,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -167,11 +205,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Gui/Accounts.java</url>
+          <line>316</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Gui/NewAccount.java</url>
           <line>55</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+<<<<<<< Updated upstream
           <url>file://$PROJECT_DIR$/src/Gui/Accounts.java</url>
           <line>70</line>
           <option name="timeStamp" value="8" />
@@ -180,6 +224,11 @@
           <url>file://$PROJECT_DIR$/src/Gui/Login.java</url>
           <line>79</line>
           <option name="timeStamp" value="17" />
+=======
+          <url>file://$PROJECT_DIR$/src/Gui/User.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="15" />
+>>>>>>> Stashed changes
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
