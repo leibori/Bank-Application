@@ -9,14 +9,15 @@ import java.util.ArrayList;
 public class Environment {
 	
 	private static ArrayList<User> users = new ArrayList<>();
+	//private static ArrayList<Integer> accounts = new ArrayList<Integer>();
 
 	private Environment() {
 		// TODO Auto-generated constructor stub
 	}
 
-//	public static final ArrayList<User> getUsers() {
-//		return users;
-//	}
+	public static final ArrayList<User> getUsers() {
+		return users;
+	}
 
 	public static User readObj(String path){
 //		try (FileInputStream fis = new FileInputStream(path);
@@ -33,6 +34,8 @@ public class Environment {
 //		}
 		return null;
 	}
+
+
 
 	public static User isNameExist(String name) {
 

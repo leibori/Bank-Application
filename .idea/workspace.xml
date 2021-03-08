@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="fd58b868-cd3e-4852-a1d1-c15a1570fe68" name="Default Changelist" comment="final">
+    <list default="true" id="fd58b868-cd3e-4852-a1d1-c15a1570fe68" name="Default Changelist" comment="final 7.3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$1$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$5$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$5$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$7.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Environment.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Environment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/NewAccount$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/NewAccount$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/NewAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/NewAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/PopupBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/PopupBox.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gui/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/Accounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gui/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/Environment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gui/NewAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/NewAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gui/PopupBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/PopupBox.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +182,13 @@
       <option name="presentableId" value="LOCAL‎00004" />
       <updated>1615130039336</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎00005" summary="final 7.3">
+      <created>1615142906587</created>
+      <option name="number" value="LOCAL‎00005" />
+      <option name="presentableId" value="LOCAL‎00005" />
+      <updated>1615142906588</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,7 +206,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="final" />
-    <option name="LAST_COMMIT_MESSAGE" value="final" />
+    <MESSAGE value="final 7.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="final 7.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
