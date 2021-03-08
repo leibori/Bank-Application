@@ -1,26 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd58b868-cd3e-4852-a1d1-c15a1570fe68" name="Default Changelist" comment="final 7.3">
+    <list default="true" id="fd58b868-cd3e-4852-a1d1-c15a1570fe68" name="Default Changelist" comment="final">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$5$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/Accounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Accounts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/Environment.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Environment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BankApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Accounts/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Accounts/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Accounts/BasicAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Accounts/BasicAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Cards/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Cards/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Cards/CardFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Cards/CardFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Gui/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/Login.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/NewAccount$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/NewAccount$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Gui/NewAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/NewAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Gui/PopupBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Gui/PopupBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Loans/Loan.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Loans/Loan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Accounts/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Accounts/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Accounts/BasicAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Accounts/BasicAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Accounts/CreateAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Accounts/CreateAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Accounts/RDAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Accounts/RDAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Accounts/SaveAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Accounts/SaveAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cards/CardFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/CardFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cards/LeumiCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/LeumiCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cards/MasterCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/MasterCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cards/VisaCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cards/VisaCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/ReadJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/ReadJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gui/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/Accounts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gui/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/Environment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gui/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gui/NewAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/NewAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gui/PopupBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/PopupBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gui/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loans/BankerConfirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loans/BankerConfirmation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loans/HomeLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loans/HomeLoan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loans/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loans/Loan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loans/LoanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loans/LoanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loans/LoanHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loans/LoanHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loans/ManagerConfirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loans/ManagerConfirmation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loans/RegularLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loans/RegularLoan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loans/StudentLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loans/StudentLoan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main_test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NoticeSystem/MessageVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NoticeSystem/MessageVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NoticeSystem/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NoticeSystem/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Transactions/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transactions/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WithdrawDeposit/NoTransFee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WithdrawDeposit/NoTransFee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WithdrawDeposit/OverDrawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WithdrawDeposit/OverDrawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WithdrawDeposit/TransFee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WithdrawDeposit/TransFee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WithdrawDeposit/WithdrawDeposit_State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WithdrawDeposit/WithdrawDeposit_State.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,34 +84,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-<<<<<<< Updated upstream
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Gui" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BankApplication-DesignPatternsAssignment-master" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Gui" />
-=======
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\orile\OneDrive\שולחן העבודה\limudim\שנה די סמסטר א\פרדיגמות\BankApp\src\Gui" />
-      <recent name="C:\Users\hadar\IdeaProjects\BankApplication-DesignPatternsAssignment\src" />
->>>>>>> Stashed changes
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hadar\IdeaProjects\Bank-Application\src\Gui" />
       <recent name="C:\Users\hadar\IdeaProjects\BankApplication-DesignPatternsAssignment\src\Gui" />
       <recent name="C:\Users\hadar\IdeaProjects\BankApplication-DesignPatternsAssignment" />
     </key>
-<<<<<<< Updated upstream
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hadar\IdeaProjects\Bank-Application\src\Gui" />
       <recent name="C:\Users\hadar\IdeaProjects\Bank-Application" />
       <recent name="C:\Users\hadar\IdeaProjects\BankApplication-DesignPatternsAssignment\src" />
     </key>
-=======
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -97,7 +113,6 @@
         </RuleState>
       </list>
     </option>
->>>>>>> Stashed changes
   </component>
   <component name="RunManager" selected="Application.Login (1)">
     <configuration name="Login (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -182,13 +197,7 @@
       <option name="presentableId" value="LOCAL‎00004" />
       <updated>1615130039336</updated>
     </task>
-    <task id="LOCAL‎00005" summary="final 7.3">
-      <created>1615142906587</created>
-      <option name="number" value="LOCAL‎00005" />
-      <option name="presentableId" value="LOCAL‎00005" />
-      <updated>1615142906588</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,37 +215,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="final" />
-    <MESSAGE value="final 7.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="final 7.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Gui/Accounts.java</url>
-          <line>316</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Gui/NewAccount.java</url>
           <line>55</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-<<<<<<< Updated upstream
-          <url>file://$PROJECT_DIR$/src/Gui/Accounts.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Gui/Login.java</url>
-          <line>79</line>
-          <option name="timeStamp" value="17" />
-=======
-          <url>file://$PROJECT_DIR$/src/Gui/User.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="15" />
->>>>>>> Stashed changes
+          <url>file://$PROJECT_DIR$/src/Accounts/RDAccount.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

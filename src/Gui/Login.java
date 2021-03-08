@@ -42,23 +42,19 @@ public class Login {
 	private void initialize() {
 		frmLogin = new JFrame();
 		frmLogin.setTitle("Login");
-		frmLogin.setBounds(100, 100, 450, 400);
+		frmLogin.setBounds(100, 100, 450, 300);
 		frmLogin.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		frmLogin.getContentPane().setLayout(null);
 		// frmLogin.getContentPane().setBackground(new Color(0, 0, 0, .5f));
 
-
-
-
 		textField = new JTextField();
 		textField.setBounds(170, 103, 86, 20);
 		frmLogin.getContentPane().add(textField);
 		textField.setColumns(10);
-<<<<<<< Updated upstream
-		
-		JLabel label = new JLabel("Username");
-		label.setBounds(102, 101, 62, 22);
+
+		JLabel label = new JLabel("Enter Your Name:");
+		label.setBounds(68, 101, 200, 22);
 		frmLogin.getContentPane().add(label);
 		label.setOpaque(false);
 
@@ -73,12 +69,6 @@ public class Login {
 		JLabel back = new JLabel("",icon, JLabel.CENTER);
 		back.setBounds(0,0,500,500);
 		frmLogin.add(back);
-=======
-
-		Label label = new Label("Username");
-		label.setBounds(102, 101, 62, 22);
-		frmLogin.getContentPane().add(label);
->>>>>>> Stashed changes
 
 		JButton btnNewButton = new JButton("Log In");
 
