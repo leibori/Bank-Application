@@ -1,7 +1,6 @@
 package Gui;
 
-import java.awt.BorderLayout;
-import java.awt.FlowLayout;
+import java.awt.*;
 
 import javax.swing.JButton;
 import javax.swing.JDialog;
@@ -26,6 +25,7 @@ public class PopupBox extends JDialog {
 		getContentPane().setLayout(new BorderLayout());
 		contentPanel.setLayout(new FlowLayout());
 		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
+		contentPanel.setBackground(new Color(232, 188, 168));
 		JLabel label;
 		getContentPane().add(contentPanel, BorderLayout.CENTER);
 		{

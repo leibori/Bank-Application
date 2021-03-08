@@ -127,11 +127,25 @@ public class Accounts {
         btnRequestLoan.setBackground(new Color(252, 164, 122));
         btnRequestLoan.setPreferredSize(new Dimension(50, 50));
 
+        JButton btnTransfer = new JButton("Transfer");
+        btnTransfer.setFont(new Font("Courier", Font.BOLD,16));
+        btnTransfer.addActionListener(btnTransferListener);
+        frame.getContentPane().add(btnTransfer, "cell 2 5");
+        btnTransfer.setBackground(new Color(252, 164, 122));
+        btnTransfer.setPreferredSize(new Dimension(50, 50));
+
         frame.setVisible(true);
 
 
     }
 
+    private ActionListener btnTransferListener = new ActionListener() {
+        public void actionPerformed(ActionEvent e) {
+            if(list.isSelectionEmpty() == false) {
+                TransactionGui window = new TransactionGui(user, getSelectedAccount());
+            }
+        }
+    };
 
     private ActionListener btnRequestLoanListener = new ActionListener() {
         public void actionPerformed(ActionEvent e) {
@@ -351,7 +365,6 @@ public class Accounts {
         listModel.clear();
         txtAccountInfo.setText("");
         for(Account account : user.getAccounts()) {
-
             listModel.addElement(Integer.toString(account.getAccountNumber()));
         }
     }
