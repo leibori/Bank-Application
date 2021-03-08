@@ -1,7 +1,15 @@
 package Loans;
 
+
 public class ManagerConfirmation implements LoanHandler {
     private LoanHandler nextHandler;
+    /**
+     * Give an answer of yes or no about authorizing the request by the limit
+     * If not, move to the next authorize persona (the handler)
+     * @param request the loan request
+     * @return boolean if authorize or not
+     * @throws Exception
+     */
     @Override
     public boolean authorize(Loan request) throws Exception {
         double amount = request.getAmount();
@@ -13,7 +21,11 @@ public class ManagerConfirmation implements LoanHandler {
         }
     }
 
-
+    /**
+     * Get the next authorize persona
+     * @return LoanHandler persona
+     * @throws Exception
+     */
     @Override
     public LoanHandler getNextHandler() throws Exception {
         if(nextHandler == null){

@@ -2,7 +2,10 @@ package WithdrawDeposit;
 
 import Accounts.Account;
 import NoticeSystem.Visitor;
-
+/**
+ *  The WithdrawDeposit class gives us the opportunity to update easily the account state .
+ *  By using the state pattern we can change the state of the account while the code is running.
+ */
 public abstract class WithdrawDeposit_State {
     private Account context;
     public double limit_overdraw = -1000.00;
@@ -30,9 +33,19 @@ public abstract class WithdrawDeposit_State {
 
     public WithdrawDeposit_State transitionState() { return null; }
 
+    /**
+     * Initial the state to be the basic one without fee
+     * @param account
+     * @return state
+     */
     public static WithdrawDeposit_State InitialState(Account account) {
         return new NoTransFee(account);
     }
+
+    /**
+     * Apply the visitor method by state
+     * @param visitor
+     */
     public void accept(Visitor visitor){};
 
     public void deposit(double amount) {

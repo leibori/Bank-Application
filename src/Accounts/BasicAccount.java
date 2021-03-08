@@ -17,6 +17,7 @@ public class BasicAccount extends Account{
 
     @Override
     public void setRevenue() {
+        //In basic account we do not have revenue
         this.revenue = 0;
     }
 

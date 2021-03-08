@@ -7,13 +7,15 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
+/**
+ * Make transaction between two accounts/
+ */
 public class Transaction {
     private static final DateFormat
             df = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
 
-    private final Account
-            sendingAccount,
-            receivingAccount;
+    private final Account sendingAccount;
+    private final Account receivingAccount;
 
     private final double amount;
     private Date date;

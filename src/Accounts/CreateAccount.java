@@ -2,7 +2,7 @@ package Accounts;
 
 public class CreateAccount {
 /**
- * Using the Singleton pattern
+ * Creating new account by the string we get
  *
  */
     public static Account makeAccount(String accountOwnerName, String accountType)throws Exception{

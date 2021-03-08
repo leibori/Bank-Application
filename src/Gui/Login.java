@@ -52,7 +52,7 @@ public class Login {
 		textField.setBounds(170, 103, 86, 20);
 		frmLogin.getContentPane().add(textField);
 		textField.setColumns(10);
-
+		
 		JLabel label = new JLabel("Enter Your Name:");
 		label.setBounds(68, 101, 200, 22);
 		frmLogin.getContentPane().add(label);

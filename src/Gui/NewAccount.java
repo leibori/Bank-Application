@@ -58,6 +58,7 @@ public class NewAccount {
 						Account newAccount = CreateAccount.makeAccount(user.getUsername(), (String) list.getSelectedValue());
 						newAccount.setBalance(1000.0);
 						user.addAccount(newAccount);
+						//PopupBox box = new PopupBox("Added account #" + newAccount.getAccountNumber() + " to your account");
 						Accounts frame = new Accounts(user);
 						frmAddAccount.setVisible(false); 
 						frmAddAccount.dispose();
