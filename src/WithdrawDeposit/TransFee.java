@@ -14,11 +14,7 @@ public class TransFee extends WithdrawDeposit_State {
     }
 
     @Override
-    public void accept(Visitor visitor) {
-        visitor.visit(this);
-    }
-
-    public WithdrawDeposit_State transitionState() {
+    WithdrawDeposit_State transitionState() {
         double balance = getContext().getBalance();
 
         if (balance < 0)
@@ -30,14 +26,20 @@ public class TransFee extends WithdrawDeposit_State {
         return getContext().getState();
     }
 
+    @Override
+    public void accept(Visitor visitor) { visitor.visit(this); }
+
+    @Override
     public void deposit(double amount) {
         double balance = getContext().getBalance();
 
         getContext().setBalance(balance - this.fee_basic);
         System.out.println("A transaction fee of $" + this.fee_basic + " was charged due to account status (Less than minimum balance)");
-        super.deposit(amount);
+        getContext().setBalance(balance + amount);
+        transitionState();
     }
 
+    @Override
     public void withdraw(double amount) throws Exception {
         double balance = getContext().getBalance();
 
@@ -46,7 +48,10 @@ public class TransFee extends WithdrawDeposit_State {
 
         getContext().setBalance(balance - this.fee_basic);
         System.out.println("A transaction fee of $" + this.fee_basic + " was charged due to account status (Less than minimum balance)");
-        super.withdraw(amount);
+
+        getContext().setBalance(balance - amount);
+        transitionState();
     }
+
 
 }

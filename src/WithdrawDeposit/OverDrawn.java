@@ -16,15 +16,7 @@ public class OverDrawn extends WithdrawDeposit_State {
     }
 
     @Override
-    public void accept(Visitor visitor) {
-        visitor.visit(this);
-    }
-
-    public void alertAccountHolder() {
-        System.out.println(alert);
-    }
-
-    public WithdrawDeposit_State transitionState() {
+    WithdrawDeposit_State transitionState() {
         double balance = getContext().getBalance();
         if (balance >= this.balance_min)
             getContext().setState(new NoTransFee(this));
@@ -34,14 +26,23 @@ public class OverDrawn extends WithdrawDeposit_State {
         return getContext().getState();
     }
 
+    @Override
+    public void accept(Visitor visitor) {
+        visitor.visit(this);
+    }
+
+    @Override
     public void deposit(double amount) {
         double balance = getContext().getBalance();
 
         getContext().setBalance(balance - this.fee_overdraw);
+        alertAccountHolder();
         System.out.println("A transaction fee of $" + this.fee_overdraw+ " was charged due to account status (Overdrawn)");
-        super.deposit(amount);
+        getContext().setBalance(balance + amount);
+        transitionState();
     }
 
+    @Override
     public void withdraw(double amount) throws Exception {
         double balance = getContext().getBalance();
 
@@ -49,8 +50,13 @@ public class OverDrawn extends WithdrawDeposit_State {
             throw new Exception("Overdraw limit has been exceeded");
 
         getContext().setBalance(balance - this.fee_overdraw);
+        alertAccountHolder();
         System.out.println("A transaction fee of $" + this.fee_overdraw + " was charged due to account status (Overdrawn)");
+        getContext().setBalance(balance - amount);
+        transitionState();
+    }
 
-        super.withdraw(amount);
+    public void alertAccountHolder() {
+        System.out.println(alert);
     }
 }

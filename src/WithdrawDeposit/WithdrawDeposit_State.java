@@ -31,8 +31,6 @@ public abstract class WithdrawDeposit_State {
         context = newAccount;
     }
 
-    public WithdrawDeposit_State transitionState() { return null; }
-
     /**
      * Initial the state to be the basic one without fee
      * @param account
@@ -46,20 +44,12 @@ public abstract class WithdrawDeposit_State {
      * Apply the visitor method by state
      * @param visitor
      */
-    public void accept(Visitor visitor){};
+    public abstract  void accept(Visitor visitor);
 
-    public void deposit(double amount) {
-        double balance = getContext().getBalance();
+    abstract WithdrawDeposit_State transitionState();
 
-        getContext().setBalance(balance + amount);
-        transitionState();
-    }
+    public abstract void deposit(double amount);
 
-    public void withdraw(double amount) throws Exception {
-        double balance = getContext().getBalance();
-
-        getContext().setBalance(balance - amount);
-        transitionState();
-    }
+    public abstract void withdraw(double amount) throws Exception;
 
 }

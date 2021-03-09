@@ -59,7 +59,7 @@ public class TransactionGui {
         frame.setBounds(100, 100, 474, 162);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
-        frame.setTitle("Transfering from account #" + account.getAccountNumber());
+        frame.setTitle("The transferring account number is " + account.getAccountNumber());
         frame.getContentPane().setLayout(new MigLayout("", "[][grow]", "[][grow][]"));
 
         JLabel lblAmount = new JLabel("Amount");

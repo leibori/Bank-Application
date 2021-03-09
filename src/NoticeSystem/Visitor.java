@@ -4,7 +4,8 @@ import WithdrawDeposit.NoTransFee;
 import WithdrawDeposit.OverDrawn;
 import WithdrawDeposit.TransFee;
 /**
- *  The Visitor class gives us the opportunity to send to the client Message in 3 different platforms: sms,mail and letter .
+ *  The Visitor class gives us the opportunity to send to the client message in 3
+ *  different platforms: sms,mail and letter .
  *  By using the visitor pattern we can send message in depends of the state of the bank account.
  */
 public interface Visitor {
