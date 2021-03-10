@@ -1,10 +1,10 @@
 # BankApp
-Executing Bank system app in java and java swing (GUI) by implement oop, SOLID and desigen pattern rules.
+Executing Bank system app in java and java swing (GUI) by implement oop, SOLID and design  pattern rules.
 
 ## Goals
 * build a bank application that let users to mange their bank account in the easiest way.
 * Let the bank management board to easily add features in the future without changing the main core.
-* Implements diffrent kinds of desigen patterns.
+* Implements diffrent kinds of design patterns.
 
 ## Features:
 #### Create Account
